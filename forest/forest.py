@@ -24,8 +24,8 @@ def forest(name):  # (name) imports input from user_name from main menu
     time.sleep(long_timer)
     print()
     print(
-        f'"Welcome {name}, to the magical forest that I call home. I am Eryn and'
-        ' I will help you on your way."'
+        f'"Welcome {name}, to the magical forest that I call home. I am Eryn' 
+        'and I will help you on your way."'
     )
     time.sleep(long_timer)
     print()
@@ -51,7 +51,7 @@ def forest(name):  # (name) imports input from user_name from main menu
     print(
         "You approach the tree and see the items that Eryn told you about. A"
         " piece of parchment and a sword. \nYou hear Eryn's voice in the back"
-        ' of your head. "You have to choose an item {user_name}! Which one will it'
+        f' of your head. "You have to choose an item {name}! Which one will it'
         ' be?"'
     )
     time.sleep(long_timer)
