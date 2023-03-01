@@ -61,8 +61,8 @@ def gifted():
 def diamonds_2():
     while True:
         print(
-            'The monster politely asks: "My friend, would you be so kind "'
-            '"to give me my diamonds?"'
+            'The monster politely asks: "My friend, would you be so kind '
+            'to give me my diamonds?"'
         )
         print()
         time.sleep(9)
@@ -140,7 +140,7 @@ def succes_2():
     print()
     print(
         "You open the gate and run out of the cave, in bittersweet joy you"
-        ' exclaim: "I made it! "But deep down you feel sorry for the monster.'
+        ' exclaim: "I made it! But deep down you feel sorry for the monster."'
     )
     time.sleep(9)
     print("You have completed this level, but at what cost? ")
@@ -185,7 +185,7 @@ def word():
     while True:
         response_10 = input(
             "So you have made a promise to a certain monster. Are you a person"
-            " of your word? Do you care about your honor? Do you wanna"
+            " of your word? Do you care about your honor? Do you want to"
             " fulfill your promise? (Yes or No) "
         )
         if response_10 == "Yes":
@@ -195,6 +195,7 @@ def word():
             )
             time.sleep(5)
             diamonds_3()
+            break
         elif response_10 == "No":
             print(
                 "Very well, you made the choice, so you will live with a "
@@ -202,6 +203,7 @@ def word():
             )
             time.sleep(5)
             succes_2()
+            break
         else:
             print("Invalid response, answer Yes or No")
 
@@ -365,10 +367,11 @@ def not_helping():
         else:
             print("Invalid response, answer leave cave or confront monster")
 
-# in the conversation, the player gets to make his or her first choice to either help
-# or not help the monster, this is done by asking a question in an input function
-# based on the players answer the player will be redirected to another function
-# if the player enters an incorrect answer the question will be asked again
+# in the conversation, the player gets to make his or her first choice to 
+# either help or not help the monster, this is done by asking a question in
+# an input function based on the players answer the player will be redirected
+# to another function if the player enters an incorrect answer the question
+# will be asked again
 def conversation():
     while True:
         print()
@@ -381,9 +384,9 @@ def conversation():
             print()
             time.sleep(5)
             print(
-                ' "The diamonds are of great emotional value to me and I am "'
-                '"lost without them, please find them quick! Good luck my "'
-                '" friend!" Go look for the monsters diamonds as '
+                '"The diamonds are of great emotional value to me and I am '
+                'lost without them, please find them quick! Good luck my '
+                'friend!" Go look for the monsters diamonds as '
                 'quickly as possible!'
             )
             time.sleep(12)
@@ -396,7 +399,7 @@ def conversation():
             break
         else:
             print("Invalid response, answer Yes or No.")
-            #return conversation()
+            
 
 # the story begins with an introduction to the monster as well as the cave and
 # the fact that the monster has something for you to do

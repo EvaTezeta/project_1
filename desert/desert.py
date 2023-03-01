@@ -104,7 +104,7 @@ def desert():
                         " 'sand' or 'hand'."
                     )
         elif go_to_cactus == "yes" or go_to_cactus == "y":
-            print('You go to the cactus.')
+            print("You go to the cactus. ")
             while do == True:
                 print()  # blank line
                 cactus = input(
