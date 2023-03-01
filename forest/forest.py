@@ -1,8 +1,8 @@
 import time
 
 # Sets two timers
-short_timer = 0
-long_timer = 0
+short_timer = 3
+long_timer = 6
 
 # Import side quests from other files
 from forest.sword.sword import sword

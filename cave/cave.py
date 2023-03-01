@@ -16,7 +16,7 @@ gift = False
 
 def key():
     print("You have taken the key and run back to the cross section. ")
-    time.sleep(7)
+    time.sleep(5)
     run()
 
 
@@ -33,7 +33,7 @@ def left():
             "You turn left and run through a dark tunnel, but at the end of "
             "the tunnel there's a faint glow. "
         )
-        time.sleep(8)
+        time.sleep(5)
         print(
             "You run over and discover the glow is coming from two different"
             " objects, a red key and countless diamonds. "
@@ -62,15 +62,15 @@ def diamonds_2():
     while True:
         print(
             'The monster politely asks: "My friend, would you be so kind '
-            'to give me my diamonds?"'
+            'to give me my diamonds?" '
         )
         print()
-        time.sleep(9)
+        time.sleep(5)
         print(
-            "They used to belong to my mother, but she died and they're the "
-            "only thing I have left of her."
+            "\"They used to belong to my mother, but she died and they're the "
+            "only thing I have left of her.\""
         )
-        time.sleep(9)
+        time.sleep(5)
         print()
         response_8 = input(
             "Will you return the diamonds to the monster? (Yes or No) "
@@ -81,9 +81,9 @@ def diamonds_2():
             print(
                 'The monster is eternally grateful: "Thank you so much my'
                 " friend... What is mine, is yours, you are free to do what"
-                " you want in my cave! I won't bother you in any way! " 
+                " you want in my cave! I won't bother you in any way!\"" 
             )
-            time.sleep(12)
+            time.sleep(5)
             print("You continue to look for a way out of the cave.")
             time.sleep(5)
             gifted()
@@ -109,7 +109,7 @@ def face_monster():
             "You turn around to get back to the cross section to get the key,"
             " but all of a sudden you hear a noise coming from the dark."
         )
-        time.sleep(9)
+        time.sleep(5)
         response_7 = input(
             'The monster emerges from the shadows, it asks you: "Hello there'
             " stranger, good to see you again, have you found my precious"
@@ -118,7 +118,7 @@ def face_monster():
 
         if response_7 == "Yes":
             print("You tell the monster you have his diamonds. ")
-            time.sleep(4)
+            time.sleep(3)
             diamonds_2()
         elif response_7 == "No":
             conversation()
@@ -131,7 +131,7 @@ def face_monster():
             "You realize that you need the key to open the gate, so you run"
             " back to the intersection."
         )
-        time.sleep(8)
+        time.sleep(5)
         run()
 
 # the non honorable ending
@@ -142,7 +142,7 @@ def succes_2():
         "You open the gate and run out of the cave, in bittersweet joy you"
         ' exclaim: "I made it! But deep down you feel sorry for the monster."'
     )
-    time.sleep(9)
+    time.sleep(5)
     print("You have completed this level, but at what cost? ")
     print("You are transported back to the portal room.")
     return True
@@ -174,7 +174,7 @@ def succes():
         '"I made it!"'
     )
     print()
-    time.sleep(8)
+    time.sleep(5)
     print(
         "You have completed this level and you are transported "
          "back to the portal room."
@@ -236,7 +236,7 @@ def right():
             "You have taken a right turn, you keep running and end up at a"
             " magnificent red gate!"
         )
-        time.sleep(6)
+        time.sleep(5)
         response_6 = input(
             "You come to realize that the gate is locked, do you have the key?"
             " Yes or No? "
@@ -281,13 +281,13 @@ def strike():
         "You take your sword and hit the monster right in it's eye, "
         "and behold, the monster stops in it's tracks and drops dead! "
     )
-    time.sleep(9)
+    time.sleep(5)
     print()
     print(
         "Euphorically you celebrate, you continue running through the cave,"
         " to hopefully find a way out. "
     )
-    time.sleep(9)
+    time.sleep(5)
 
     run()
 
@@ -308,7 +308,7 @@ def duck():
                 " monster.\nNonetheless, the monster is still chasing you "
                 "and you need to escape the cave. "
             )
-            time.sleep(9)
+            time.sleep(5)
             run()
             break
         elif response_3 == "strike":
@@ -389,7 +389,7 @@ def conversation():
                 'friend!" Go look for the monsters diamonds as '
                 'quickly as possible!'
             )
-            time.sleep(12)
+            time.sleep(5)
             print()
             run()
             break
@@ -411,7 +411,7 @@ def introduction():
         " out of the cave alive, but you are no ordinary person so you enter"
         " the cave with confidence."
     )
-    time.sleep(11)
+    time.sleep(5)
     print()
     print(
         '"Welcome to the cave of madness" a voice coming from the shadows'
@@ -419,13 +419,13 @@ def introduction():
         " my cave, there's something you need to do for me.\""
     )
     print()
-    time.sleep(11)
+    time.sleep(5)
     print(
         '"I have lost my precious diamonds somewhere in this cave, if'
         " you're able to find them and return them to me, I will let you pass"
         ' through my cave freely and no one will bother you."'
     )
-    time.sleep(11)
+    time.sleep(5)
     print()
     print('"Will you promise to find them for me?"')
     time.sleep(3)
@@ -433,4 +433,4 @@ def introduction():
     conversation()
     
 def cave():
-    print(introduction())
+    introduction()

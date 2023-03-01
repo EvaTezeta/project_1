@@ -6,8 +6,8 @@ from mountain.mountain import mountain
 from cave.cave import cave
 
 # Sets two timers
-short_timer = 0
-long_timer = 0
+short_timer = 3
+long_timer = 6
 
 # Welcome player
 print("Welcome adventurer, to this fantasy text adventure game!")
@@ -103,4 +103,5 @@ while True:
 
 
 # End of game
+print()
 print(f"Farewell {user_name}! Thanks for playing!")

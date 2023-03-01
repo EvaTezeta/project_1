@@ -27,6 +27,7 @@ def end_key_found():
         " transported ... Back to the portal room.."
     )
     time.sleep(3)
+    print()
     print(
         "Congratulations! You have succesfully completed the Mountain level!"
     )
