@@ -85,5 +85,5 @@ def forest(name):  # (name) imports input from user_name from main menu
     print()
     input(
         "You see the end portal and walk to it. Press any key to open the"
-        " portal and to go back to the portal room."
+        " portal and to go back to the portal room. "
     )  # End of world 1

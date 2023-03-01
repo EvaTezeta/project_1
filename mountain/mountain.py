@@ -24,7 +24,7 @@ def end_key_found():
     print(
         "Then suddenly you feel a surge of energy flow through your body. "
         " Your are pulled towards the key, you feel like you are being"
-        " transported ..."
+        " transported ... Back to the portal room.."
     )
     time.sleep(3)
     print(
@@ -44,7 +44,7 @@ def sound_guess():
         sound_input = input("Make a sound: ")
         if sound_input in words:
             print(
-                "Yess!! You made a sound that scared the unicorn! \n The"
+                "Yess!! You made a sound that scared the unicorn! \nThe"
                 " unicorn drops the object and runs away. You check what it"
                 " is, it is the key indeed."
             )
@@ -92,7 +92,7 @@ def slope():
                 " Stones are coming down the mountain. You try to hide, by"
                 " leaning against the mountain slope. When the stones stop"
                 " coming you look around. \nUnder one stone you see somthing"
-                " shining. You look under the stone, and you see a key."
+                " shining. You look under the stone and you see a key."
                 "\n"
             )
             end_key_found()
@@ -205,7 +205,7 @@ def mountain_east():
         elif rest_mountain == "back" or rest_mountain == "Back":
             print(
                 "You walk back down the mountain. You are at the t-junction"
-                " again"
+                " again."
             )
             mountain_choose()
             top = False
@@ -335,7 +335,7 @@ def sound_make():
 
             if first_number.isdigit():
                 first_number = int(first_number)  
-                # Makinf sure that the input is integer
+                # Making sure that the input is integer
 
             if first_number not in number_under_10:  
                 # If number isn't in {1-10}
